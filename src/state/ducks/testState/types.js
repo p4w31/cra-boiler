@@ -1,0 +1,1 @@
+export const CHANGE_TEST_STATE = 'testState/CHANGE_TEST_STATE';
