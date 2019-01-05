@@ -1,5 +1,5 @@
-import { storeFactory } from './test/helpers';
-import { testActions } from './state/ducks/testState';
+import { storeFactory } from '../../../test/helpers';
+import { testActions } from './index';
 
 let initialState = { testState: false };
 const store = storeFactory(initialState);
