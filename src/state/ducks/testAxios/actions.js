@@ -8,8 +8,8 @@ export function fetchJSON(newState) {
             });
             axios.get('http://localhost:3004/advertisers')
                 .then((response) => {
-                    console.log('response');
-                    console.log(response.data);
+                    // console.log('response');
+                    // console.log(response.data);
                     //resolve(response.data);
                     dispatch({
                         type: 'asdf2222',

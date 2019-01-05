@@ -26,9 +26,9 @@ describe('fetchJSON action', () => {
                 status: 200,
                 response: arr1
             }).then((data) => {
-                //expect(spy1.getCall(1).args[0].payload).toEqual(arr1);
+                expect(spy1.getCall(1).args[0].payload).toEqual(arr1);
                 //expect(spy1.getCall(1).args[0].type).toEqual(true);
-                expect(store.getState()).toBe(true);
+                //expect(store.getState()).toBe(true);
                 done();
             });
         })
